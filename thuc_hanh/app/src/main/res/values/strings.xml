@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">tuan3_ui</string>
+    <string-array name="traicay_array">
+        <item>Xoài</item>
+        <item>Mít</item>
+        <item>Ổi</item>
+        <item>Chuối</item>
+        <item>Đu đủ</item>
+    </string-array>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PhongBanActivity">
+
+    <Button
+        android:id="@+id/button_exit"
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thoát"/>
+    <EditText
+        android:id="@+id/edt_maPB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã Phòng Ban"/>
+    <EditText
+        android:id="@+id/edt_tenPB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên Phòng Ban"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xem"
+            android:id="@+id/btnXem"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Thêm"
+            android:id="@+id/btnThem"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Xóa"
+            android:id="@+id/btnXoa"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Sửa"
+            android:id="@+id/btnSua"/>
+    </LinearLayout>
+    <GridView
+        android:id="@+id/gridview_display"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="2"/>
+
+</LinearLayout>

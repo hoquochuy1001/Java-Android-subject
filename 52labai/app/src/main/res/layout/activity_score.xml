@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ScoreActivity"
+    android:id="@+id/layoutLi"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tvKQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:text="Bạn đã thắng !!!"
+        android:gravity="center"
+        android:textColor="#FF5722"
+        />
+    <TextView
+        android:id="@+id/tvDiemNguoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Điểm của máy 1 là: "
+        android:gravity="center"
+        android:textSize="18dp"
+
+        />
+    <TextView
+        android:id="@+id/tvDiemMay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Điểm của máy 2 là: "
+        android:gravity="center"
+        android:textSize="18dp"
+
+        />
+    <Button
+        android:id="@+id/btChoiLai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chơi lại"
+        android:backgroundTint="#4CAF50"
+        />
+
+</LinearLayout>

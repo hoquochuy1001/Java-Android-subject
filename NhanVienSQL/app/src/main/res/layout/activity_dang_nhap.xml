@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DangNhapActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:src="@drawable/a50a6704336ade0fdb4b5a364df0b850" />
+
+    <EditText
+        android:id="@+id/txtDangNhap"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:hint="Tên tài khoản"
+        />
+
+    <EditText
+        android:id="@+id/txtMatKhau"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:hint="Mật khẩu"
+        />
+
+    <Button
+        android:id="@+id/btnDangNhap"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:text="Đăng nhập" />
+
+    <TextView
+        android:id="@+id/txtDangKyTaiKhoan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Đăng kí tài khoản"/>
+</LinearLayout>

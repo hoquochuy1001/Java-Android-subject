@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mnSach"
+        android:title="NhanVien" />
+    <item
+        android:id="@+id/mnTacGia"
+        android:title="TacGia" />
+    <item
+        android:id="@+id/mnThoat"
+        android:title="Thoat" />
+</menu>
